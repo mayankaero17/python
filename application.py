@@ -19,6 +19,6 @@ def register():
         return "faliure"
     server = smtplib.SMTP("smtp.gmail.com",587)
     server.starttls()
-    server.login("mayankae21@gmail.com","9799208135")
+    server.login("mayankae21@gmail.com","***********")
     server.sendmail("mayankae21@gmail.com", email, message)
     return render_template("success.html")
